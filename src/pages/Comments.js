@@ -16,7 +16,7 @@ export default function Comments() {
                getData()
            }
            
-       }, [])
+       }, [postId, navigate])
    const goToUsers=()=>{
        navigate('/')
    }

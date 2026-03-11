@@ -17,7 +17,7 @@ export default function Posts() {
             getData()
         }
         
-    }, [])
+    }, [userId, navigate])
 const goToUsers=()=>{
     navigate('/')
 }

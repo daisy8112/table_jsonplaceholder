@@ -48,7 +48,7 @@ export default function Users() {
                         <td>{item.email}</td>
                         <td>{item.company.name}</td>
                        <td>{item.address.city}, {item.address.street}, {item.address.suite}</td>
-                        <td><a target='_blank' href={"https://"+item.website}>{item.website}</a></td>
+                        <td><a target='_blank' rel="noreferrer" href={"https://"+item.website}>{item.website}</a></td>
                         <td><Link to={'posts/'+item.id}  className='table_btn_box'><Button variant="primary"><FaEye /></Button></Link></td>
                         <td><Link to={'todos/'+item.id}  className='table_btn_box'><Button variant="primary"><FaEye /></Button></Link></td>
                       </tr>

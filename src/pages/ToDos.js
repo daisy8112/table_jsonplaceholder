@@ -18,7 +18,7 @@ export default function ToDos() {
                getData()
            }
            
-       }, [])
+       }, [userId, navigate])
    const goToUsers=()=>{
        navigate('/')
    }
